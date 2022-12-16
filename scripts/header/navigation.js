@@ -5,7 +5,7 @@ import { getStartOfWeek, getDisplayedMonth } from '../common/time.utils.js';
 
 const navElem = document.querySelector('.navigation');
 const displayedMonthElem = document.querySelector(
-  '.navigation__displayed-month'
+  '.navigation__displayed-month',
 );
 
 function renderCurrentMonth() {

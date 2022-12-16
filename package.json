@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "lint": "npm run lint"
+    "lint": "npm run lint",
+    "lint-fix": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
